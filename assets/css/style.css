@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #e96b56;
+  color: #b82556;
   text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e96b56;
+  background: #b82556;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -408,130 +408,11 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# hero1 Section
---------------------------------------------------------------*/
-#hero1 {
-  width: 100%;
-  height: 30vh;
-  background: linear-gradient(rgb(240, 88, 18), rgb(146, 71, 28, 0.8));
-}
-#hero1 .container {
-  padding-top: 72px;
-}
-#hero1 h1 {
-  margin: 0 0 10px 0;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 26px;
-  color: #fff;
-}
-#hero1 h2 {
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 10px;
-  font-size: 24px;
-}
-#hero1 .btn-get-started {
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px 11px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px 0 0 0;
-  color: #fff;
-  background: #f05d08d5;
-}
-#hero1 .btn-get-started:hover {
-  background: #f05d08d5;
-}
-#hero1 .btn-watch-video {
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  transition: 0.5s;
-  margin: 10px 0 0 25px;
-  color: #fff;
-  line-height: 1;
-}
-#hero1 .btn-watch-video i {
-  line-height: 0;
-  color: #fff;
-  font-size: 32px;
-  transition: 0.3s;
-  margin-right: 8px;
-}
-#hero1 .btn-watch-video:hover i {
-  color: #e96b56;
-}
-#hero1 .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
-}
-@media (max-width: 991px) {
-  #hero1 {
-    height: 100vh;
-    text-align: center;
-  }
-  #hero1 .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero1 .hero1-img {
-    text-align: center;
-  }
-  #hero1 .hero1-img img {
-    width: 50%;
-  }
-}
-@media (max-width: 768px) {
-  #hero1 h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero1 h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-  #hero1 .hero1-img img {
-    width: 70%;
-  }
-}
-@media (max-width: 575px) {
-  #hero1 .hero1-img img {
-    width: 80%;
-  }
-  #hero1 .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-}
-
-@-webkit-keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-/*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   overflow: hidden;
   position: relative;
 }
@@ -552,11 +433,12 @@ h6 {
 }
 #hero .carousel-item {
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.666);
 }
 #hero .carousel-container {
   display: flex;
@@ -684,7 +566,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #e96b56;
+  color: #b82556;
 }
 .section-title h2::before {
   content: "";
@@ -702,7 +584,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #e96b56;
+  background: #b82556;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -758,7 +640,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #e96b56;
+  color: #b82556;
   line-height: 1;
 }
 .about .content p:last-child {
@@ -774,17 +656,92 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #e96b56;
+  color: #b82556;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #e96b56;
+  border: 2px solid #b82556;
   background-color: white;
 }
 .btn-learn-more:hover {
-  background: #e96b56;
+  background: #b82556;
   color: #fff;
   text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Objective
+--------------------------------------------------------------*/
+.objectives {
+  background-color: #b82556;
+}
+.objectives .section-title h2 {
+  color: #fff;
+}
+.objectives .content {
+  padding: 30px;
+  background: #74ac43;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.objectives .content h3 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.objectives .content p {
+  margin-bottom: 30px;
+}
+
+.objectives .content .more-btn {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+
+.objectives .content .more-btn i {
+  font-size: 14px;
+}
+
+.objectives .content .more-btn:hover {
+  color: #bd3266;
+  background: #fff;
+}
+
+.objectives .icon-boxes .icon-box {
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.objectives .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #bd3266;
+  margin-bottom: 30px;
+}
+
+.objectives .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.objectives .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+
+.objectives .icon-boxes .icon-box:hover {
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
 }
 
 /*--------------------------------------------------------------
@@ -796,7 +753,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #e96b56;
+  color: #b82556;
 }
 .why-us .content h4 {
   font-size: 20px;
@@ -839,7 +796,7 @@ section {
   cursor: pointer;
 }
 .why-us .accordion-list span {
-  color: #e96b56;
+  color: #b82556;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -861,7 +818,7 @@ section {
   color: #343a40;
 }
 .why-us .accordion-list a.collapsed:hover {
-  color: #e96b56;
+  color: #b82556;
 }
 .why-us .accordion-list a.collapsed .icon-show {
   display: inline-block;
@@ -894,73 +851,70 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta {
+  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.cta h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cta p {
+  color: #fff;
+}
+
+.cta-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.cta-btn:hover {
+  background: #009970;
+  border: 2px solid #009970;
+}
+
+/*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
-.counts .content {
-  padding: 30px 0;
+.counts {
+  background: #fff;
+  padding: 40px 0 20px 0;
+  /* color: #fff; */
 }
-.counts .content h3 {
-  font-weight: 700;
-  font-size: 34px;
-  color: #151515;
-}
-.counts .content p {
-  margin-bottom: 0;
-}
-.counts .content .count-box {
-  padding: 20px 0;
-  width: 100%;
-}
-.counts .content .count-box i {
-  display: block;
-  font-size: 36px;
-  color: #ffc451;
-  float: left;
-}
-.counts .content .count-box span {
-  font-size: 36px;
-  line-height: 30px;
+
+.counts .counters h1 {
+  font-size: 26px;
   display: block;
   font-weight: 700;
-  color: #151515;
-  margin-left: 50px;
 }
-.counts .content .count-box p {
-  padding: 15px 0 0 0;
-  margin: 0 0 0 50px;
+.counts span {
+  color: #b82556;
+  font-size: 38px;
+}
+
+.counts .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  color: #3b3b3b;
-}
-.counts .content .count-box a {
-  font-weight: 600;
-  display: block;
-  margin-top: 20px;
-  color: #3b3b3b;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  transition: ease-in-out 0.3s;
-}
-.counts .content .count-box a:hover {
-  color: #626262;
-}
-.counts .image {
-  background: url("../img/heroWomen.png.png") center center no-repeat;
-  background-size: cover;
-  min-height: 400px;
-}
-@media (max-width: 991px) {
-  .counts .image {
-    text-align: center;
-  }
-  .counts .image img {
-    max-width: 80%;
-  }
-}
-@media (max-width: 667px) {
-  .counts .image img {
-    max-width: 100%;
-  }
+  font-weight: 500;
 }
 
 /*--------------------------------------------------------------
@@ -969,7 +923,7 @@ section {
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #e96b56;
+  color: #b82556;
   font-family: "Poppins", sans-serif;
 }
 
@@ -983,7 +937,7 @@ section {
 .skills .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #e96b56;
+  color: #b82556;
 }
 .skills .content p:last-child {
   margin-bottom: 0;
@@ -1001,7 +955,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #e96b56;
+  color: #b82556;
 }
 .skills .progress .skill .val {
   float: right;
@@ -1034,7 +988,7 @@ section {
   margin-bottom: 10px;
 }
 .services .icon-box .icon i {
-  color: #e96b56;
+  color: #b82556;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -1044,7 +998,7 @@ section {
   font-size: 24px;
 }
 .services .icon-box h4 a {
-  color: #e96b56;
+  color: #b82556;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box p {
@@ -1056,7 +1010,7 @@ section {
   transform: translateY(-10px);
 }
 .services .icon-box:hover h4 a {
-  color: #e96b56;
+  color: #e98a2f;
 }
 
 blockquote {
@@ -1088,148 +1042,27 @@ blockquote::after {
 }
 
 /*--------------------------------------------------------------
-# Cta
---------------------------------------------------------------*/
-.cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
-    url("../img/cta-bg.jpg") fixed center center;
-  background-size: cover;
-  padding: 120px 0;
-}
-.cta h3 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-.cta p {
-  color: #fff;
-}
-.cta .cta-btn {
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 40px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-.cta .cta-btn:hover {
-  background: #e96b56;
-  border: 2px solid #e96b56;
-}
-@media (max-width: 1024px) {
-  .cta {
-    background-attachment: scroll;
-  }
-}
-@media (min-width: 769px) {
-  .cta .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-}
-
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
-.portfolio {
-  background-color: #e8edf5;
-}
-.portfolio #portfolio-flters {
-  list-style: none;
-  margin-bottom: 20px;
-}
-.portfolio #portfolio-flters li {
-  cursor: pointer;
-  display: inline-block;
-  margin: 10px 5px;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1;
-  color: #444444;
-  transition: all 0.3s;
-  padding: 8px 20px;
-  border-radius: 50px;
-  font-family: "Poppins", sans-serif;
-}
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-  background: #e96b56;
-  color: #fff;
-}
-.portfolio .portfolio-item {
-  margin-bottom: 30px;
-}
-.portfolio .portfolio-item .portfolio-img {
-  overflow: hidden;
-}
-.portfolio .portfolio-item .portfolio-img img {
-  transition: all 0.6s;
-}
-.portfolio .portfolio-item .portfolio-info {
-  opacity: 0;
-  position: absolute;
-  left: 15px;
-  bottom: 0;
-  z-index: 3;
-  right: 15px;
-  transition: all 0.3s;
-  background: rgba(223, 89, 12, 0.623);
-  padding: 10px 15px;
-}
-.portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: 0px;
-}
-.portfolio .portfolio-item .portfolio-info p {
-  color: #f9fcfe;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-.portfolio .portfolio-item .portfolio-info .preview-link,
-.portfolio .portfolio-item .portfolio-info .details-link {
-  position: absolute;
-  right: 40px;
-  font-size: 24px;
-  top: calc(50% - 18px);
-  color: #fff;
-  transition: 0.3s;
-}
-.portfolio .portfolio-item .portfolio-info .preview-link:hover,
-.portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #e96b56;
-}
-.portfolio .portfolio-item .portfolio-info .details-link {
-  right: 10px;
-}
-.portfolio .portfolio-item:hover .portfolio-img img {
-  transform: scale(1.15);
-}
-.portfolio .portfolio-item:hover .portfolio-info {
-  opacity: 1;
-}
-
-/*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
 }
+.portfolio-details .row {
+  margin-bottom: 5vh;
+}
+.portfolio-details .container .row:nth-child(4) {
+  margin-bottom: 0;
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
+
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
+
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
@@ -1238,18 +1071,21 @@ blockquote::after {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #e96b56;
+  border: 1px solid #bd3266;
 }
+
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #e96b56;
+  background-color: #bd3266;
 }
+
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(223, 89, 12, 0.623);
+  box-shadow: 0px 0 30px rgba(54, 52, 58, 0.08);
 }
+
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
@@ -1257,62 +1093,67 @@ blockquote::after {
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
+
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
+
 .portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
+
 .portfolio-details .portfolio-description {
   padding-top: 30px;
 }
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
+
+.portfolio-details h2 {
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 20px;
 }
+
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team {
-  max-height: 600px;
-  overflow-y: scroll;
-  background-color: #fff;
+  background: #fff;
 }
+
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
-  border-radius: 5px;
-  background: #fff;
-  transition: 0.5s;
+  border-radius: 10px;
+  text-align: center;
 }
+
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
+  width: 150px;
   border-radius: 50%;
+  margin: 0 auto 20px auto;
 }
+
 .team .member .pic img {
   transition: ease-in-out 0.3s;
 }
-.team .member:hover {
-  transform: translateY(-10px);
+
+.team .member:hover img {
+  transform: scale(1.1);
 }
-.team .member .member-info {
-  padding-left: 30px;
-}
+
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #e96b56;
+  color: #36343a;
 }
+
 .team .member span {
   display: block;
   font-size: 15px;
@@ -1320,26 +1161,31 @@ blockquote::after {
   position: relative;
   font-weight: 500;
 }
+
 .team .member span::after {
   content: "";
   position: absolute;
   display: block;
   width: 50px;
   height: 1px;
-  background: #cbd6e9;
+  background: #b5b3ba;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
 .team .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
+
 .team .member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
+
 .team .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
@@ -1348,19 +1194,19 @@ blockquote::after {
   border-radius: 50px;
   width: 32px;
   height: 32px;
-  background: #eff2f8;
+  background: #a8a5ae;
 }
+
 .team .member .social a i {
-  color: #e96b56;
+  color: #fff;
   font-size: 16px;
   margin: 0 2px;
 }
+
 .team .member .social a:hover {
-  background: #e96b56;
+  background: #bd3266;
 }
-.team .member .social a:hover i {
-  color: #fff;
-}
+
 .team .member .social a + a {
   margin-left: 8px;
 }
@@ -1383,7 +1229,7 @@ blockquote::after {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
-  color: #e96b56;
+  color: #e98a2f;
 }
 .pricing h4 {
   font-size: 48px;
@@ -1396,7 +1242,7 @@ blockquote::after {
   font-size: 28px;
 }
 .pricing h4 span {
-  color: #e96b56;
+  color: #e98a2f;
   font-size: 18px;
   display: block;
 }
@@ -1431,23 +1277,23 @@ blockquote::after {
   display: inline-block;
   padding: 12px 35px;
   border-radius: 50px;
-  color: #e96b56;
+  color: #e98a2f;
   transition: none;
   font-size: 16px;
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid #e96b56;
+  border: 1px solid #e98a2f;
 }
 .pricing .buy-btn:hover {
-  background: #e96b56;
+  background: #e98a2f;
   color: #fff;
 }
 .pricing .featured {
-  border-top-color: #e96b56;
+  border-top-color: #e98a2f;
 }
 .pricing .featured .buy-btn {
-  background: #e96b56;
+  background: #e98a2f;
   color: #fff;
 }
 .pricing .featured .buy-btn:hover {
@@ -1507,7 +1353,7 @@ blockquote::after {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #e96b56;
+  color: #e98a2f;
 }
 .faq .faq-list .icon-show,
 .faq .faq-list .icon-close {
@@ -1528,7 +1374,7 @@ blockquote::after {
   transition: 0.3s;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #e96b56;
+  color: #e98a2f;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -1549,8 +1395,8 @@ blockquote::after {
   background-color: #e8edf5;
 }
 .contact .info {
-  border-top: 3px solid #e96b56;
-  border-bottom: 3px solid #e96b56;
+  border-top: 3px solid #e98a2f;
+  border-bottom: 3px solid #e98a2f;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1558,7 +1404,7 @@ blockquote::after {
 }
 .contact .info i {
   font-size: 20px;
-  color: #e96b56;
+  color: #e98a2f;
   float: left;
   width: 44px;
   height: 44px;
@@ -1603,19 +1449,19 @@ blockquote::after {
   margin-right: 10px;
 }
 .contact .info .social-links a:hover {
-  background: #e96b56;
+  background: #e98a2f;
   color: #fff;
 }
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #e96b56;
+  background: #e98a2f;
   color: #fff;
 }
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #e96b56;
-  border-bottom: 3px solid #e96b56;
+  border-top: 3px solid #e98a2f;
+  border-bottom: 3px solid #e98a2f;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1682,7 +1528,7 @@ blockquote::after {
 }
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #e96b56;
+  border-color: #e98a2f;
 }
 .contact .php-email-form input {
   height: 44px;
@@ -1691,7 +1537,7 @@ blockquote::after {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type="submit"] {
-  background: #e96b56;
+  background: #e98a2f;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1760,7 +1606,7 @@ blockquote::after {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #ff5821;
+  background: #74ac43;
 }
 #footer .footer-newsletter {
   padding: 50px 0;
@@ -1800,7 +1646,7 @@ blockquote::after {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #e96b56;
+  background: #e98a2f;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1849,7 +1695,7 @@ blockquote::after {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #e96b56;
+  color: #b82556;
   font-size: 18px;
   line-height: 1;
 }
@@ -1869,12 +1715,12 @@ blockquote::after {
 }
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #e96b56;
+  color: #b82556;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #e96b56;
+  background: #b82556;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
