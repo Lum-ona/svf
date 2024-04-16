@@ -920,6 +920,13 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.skills .row {
+  margin-bottom: 4vh;
+}
+.skills .row.payment {
+  margin-bottom: -10vh;
+}
+
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
