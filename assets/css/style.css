@@ -16,6 +16,11 @@ a:hover {
   text-decoration: none;
 }
 
+em {
+  font-size: 14px;
+  color: rgb(95, 95, 95);
+}
+
 h1,
 h2,
 h3,
@@ -744,6 +749,15 @@ section {
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
 }
 
+.objectives .vision h3 {
+  font-size: 38px;
+  font-weight: 600;
+}
+.objectives .vision .icon-boxes .icon-box p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -923,6 +937,7 @@ section {
 .skills .row {
   margin-bottom: 4vh;
 }
+
 .skills .row.payment {
   margin-bottom: -10vh;
 }
